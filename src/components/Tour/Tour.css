@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr ;
     gap: 0 61px;
-    /* margin-bottom: 100px; */
+    margin-bottom:100px;
     align-items: center;
   }
 .tour__card-pic{

@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/TravelJapan/static/css/main.0f42bf71.css",
+    "main.js": "/TravelJapan/static/js/main.6d11fd20.js",
+    "static/media/header.jpg": "/TravelJapan/static/media/header.66709caef1b7af1fce46.jpg",
+    "static/media/kyoto.jpg": "/TravelJapan/static/media/kyoto.aeb6b089323c61f1f800.jpg",
+    "static/media/tokyo.jpg": "/TravelJapan/static/media/tokyo.4f525caf1690822d1a6d.jpg",
+    "static/media/sapporo.jpg": "/TravelJapan/static/media/sapporo.7a0e51257f25b31736ce.jpg",
+    "static/media/nigata.jpg": "/TravelJapan/static/media/nigata.0a6819231e8b42f8cdfa.jpg",
+    "static/media/ueno.jpg": "/TravelJapan/static/media/ueno.11f7ab66e0bc951087e3.jpg",
+    "static/media/shibuya.jpg": "/TravelJapan/static/media/shibuya.fbb823ec0e36d974f925.jpg",
+    "static/media/osaka.jpg": "/TravelJapan/static/media/osaka.2e6cac06065ed4345ea6.jpg",
+    "static/media/niigata.jpg": "/TravelJapan/static/media/niigata.b3999461e12a1cb77d88.jpg",
+    "static/media/nagoya.jpg": "/TravelJapan/static/media/nagoya.81c06ec78a0ac73f5bad.jpg",
+    "static/media/saitama.jpg": "/TravelJapan/static/media/saitama.ac0c4de5298023cdffe1.jpg",
+    "static/media/fuji.jpg": "/TravelJapan/static/media/fuji.7f03e140a7cbe281f55a.jpg",
+    "static/media/lato-v17-latin-regular.woff": "/TravelJapan/static/media/lato-v17-latin-regular.319df0f5492062b546b0.woff",
+    "static/media/lato-v17-latin-700.woff": "/TravelJapan/static/media/lato-v17-latin-700.a354bb0b0b0f22de7bef.woff",
+    "static/media/lato-v17-latin-900.woff": "/TravelJapan/static/media/lato-v17-latin-900.22f1d97be275c94e30d7.woff",
+    "static/media/lato-v17-latin-regular.woff2": "/TravelJapan/static/media/lato-v17-latin-regular.65e877e527022735c1a1.woff2",
+    "static/media/lato-v17-latin-700.woff2": "/TravelJapan/static/media/lato-v17-latin-700.f1405bd8a987c2ea8a67.woff2",
+    "static/media/lato-v17-latin-900.woff2": "/TravelJapan/static/media/lato-v17-latin-900.f33015cf2124b2046860.woff2",
+    "static/media/guide_icon.svg": "/TravelJapan/static/media/guide_icon.7c50056ae36081a041bd05b1849c3c4e.svg",
+    "static/media/odigo_icon.svg": "/TravelJapan/static/media/odigo_icon.27e56e93a2377e60a2957475a1457878.svg",
+    "static/media/local_icon.svg": "/TravelJapan/static/media/local_icon.0369134568668b59bb85ee115f6e2d99.svg",
+    "index.html": "/TravelJapan/index.html",
+    "static/media/comment-ico.svg": "/TravelJapan/static/media/comment-ico.af1a1f98a7ad5ea46176.svg",
+    "static/media/heart.svg": "/TravelJapan/static/media/heart.f05ee709614748583a96.svg",
+    "static/media/circle-icon.svg": "/TravelJapan/static/media/circle-icon.4c2387538d35d697cddb.svg",
+    "static/media/arrow-right.svg": "/TravelJapan/static/media/arrow-right.baf61354d85cf8bde0df.svg",
+    "main.0f42bf71.css.map": "/TravelJapan/static/css/main.0f42bf71.css.map",
+    "main.6d11fd20.js.map": "/TravelJapan/static/js/main.6d11fd20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f42bf71.css",
+    "static/js/main.6d11fd20.js"
+  ]
+}

@@ -1,0 +1,27 @@
+.footer{
+    margin: 0 auto;
+    width: 100%;
+    background: #0E1D28;
+}
+.footer__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 370px;
+    align-content: center;
+}
+
+.footer__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);;
+    grid-auto-flow: column;
+    /* column-gap: 130px; */
+}
+.footer__title{
+color:white;
+font-size: 16px;
+line-height: 26px;
+}
+.footer__title:nth-child(5n+1){
+    font-size: 18px;
+  }

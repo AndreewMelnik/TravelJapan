@@ -1,0 +1,13 @@
+.places{
+    position: relative;
+    margin: 0 auto;
+    max-width: 1262px;
+    padding-top: 100px;
+}
+
+.places__title{
+    width: 100%;
+    font-size: 35px;
+    padding: 93px 100px 88px 100px;
+    background-color: #fff;
+  }

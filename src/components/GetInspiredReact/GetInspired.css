@@ -1,0 +1,47 @@
+.trip {
+  padding-top: 131px;
+  /* padding-bottom: 131px; */
+  max-width: 1262px;
+  margin: 0 auto;
+  }
+  
+  .trip__caption {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 36px;
+  }
+  
+  .trip__title {
+      margin-right: 15px;
+      font-size: 35px;
+  
+  }
+  
+  .trip__card-more {
+    display: inline-block;
+    padding-right: 53px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #006DFE;
+    text-decoration: none;
+    background: url(/public/img/svg/arrow-right.svg) no-repeat 95% center;
+    transition: all 0.2s;
+  }
+  
+  .trip__card-more:hover, .benefits__card-morefocus {
+    background: url(/public/img/svg/arrow-right.svg) no-repeat right center;
+  }
+
+  .trip__card-title {
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+    z-index: 3;
+    bottom: 27px;
+    left: 29px;
+  }
+  

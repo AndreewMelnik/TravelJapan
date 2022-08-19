@@ -500,5 +500,17 @@ html {
 .wrapper__main{
   max-width: 1262px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
+@media (max-width:1280px){
+  .wrapper__main{
+    max-width: 970px;
+  }
+}
+
+@media (max-width:1280px){
+  .wrapper{
+    max-width: 805px;
+  }
+}

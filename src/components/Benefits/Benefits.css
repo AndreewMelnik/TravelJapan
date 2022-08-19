@@ -8,10 +8,16 @@
 .benefits__title{
     width: 100%;
     font-size: 35px;
-    padding: 93px 100px 88px 100px;
+    padding: 93px 100px 88px 9%;
     position: absolute;
     top: 0;
     left: 0;
     transform: translateY(-100%);
     background-color: #fff;
   }
+
+@media (max-width:1280px){
+    .benefits__title{
+     padding: 93px 100px 88px 17%;
+    }
+}

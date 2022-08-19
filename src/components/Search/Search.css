@@ -23,7 +23,7 @@
 }
 
 .search-form {
-
+max-width: 915px;
 }
   
 .search-form__info {
@@ -32,14 +32,14 @@
 }
   
 .search-form__field {
-  width: 297px;
+  width: 34%;
   background-color: transparent;
   background: url(/public/img/svg/circle-icon.svg) no-repeat left;
   background-size: 20px;
   border: 0;
   border-bottom: 2px solid #BFC0C5;
-  margin-right: 60px;
-  padding-left: 43px;
+  margin-right: 5%;
+  padding-left: 4%;
   font-weight: 500;
   font-size: 18px;
   color: #fff;
@@ -58,5 +58,11 @@
   
 .search-form__submit:hover, .search-form__submit:focus, .search-form__submit:active {
   background: #0d51ad;
+}
+
+@media (max-width:1280px) {
+  .search-form__submit{
+    padding: 10px 23px;
+  }
 }
   

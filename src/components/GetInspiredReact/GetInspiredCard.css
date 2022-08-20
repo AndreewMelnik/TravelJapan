@@ -54,3 +54,9 @@
   }
   
  
+  
+  @media (max-width:1280px) {
+    .trip__card-title {
+      font-size: 44px;
+    }
+  }

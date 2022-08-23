@@ -42,7 +42,7 @@ class Title extends Component {
   render() {
     const { name, } = this.props;
     return (
-      <h3 class="footer__title">{name}</h3>
+      <h3 className="footer__title">{name}</h3>
     )
   }
 }

@@ -42,11 +42,11 @@ class Card extends Component {
 
           <figcaption className="places__card-caption">
             <h3 className="places__card-title">{name}</h3>
-            <div class="top-places__card-likes">
-              <span class="top-places__card-likes-value">221</span>
+            <div className="top-places__card-likes">
+              <span className="top-places__card-likes-value">221</span>
             </div>
-            <div class="top-places__card-comments">
-              <span class="top-places__card-comments-value">50</span>
+            <div className="top-places__card-comments">
+              <span className="top-places__card-comments-value">50</span>
             </div>
           </figcaption>
 

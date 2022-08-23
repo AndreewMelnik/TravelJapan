@@ -4,7 +4,7 @@ import GetInspiredCard from './GetInspiredCard';
 
 function GetInspired() {
     return (
-        <section class="trip">
+        <section className="trip">
             <div className="wrapper__main">
                 <div className="trip__caption">
                     <h2 className="trip__title">

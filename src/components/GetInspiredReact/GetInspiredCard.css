@@ -60,3 +60,16 @@
       font-size: 44px;
     }
   }
+ 
+  @media (max-width:800px){
+    .trip__card-title {
+      font-size: 25px;
+    }
+    .trip__cards {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      max-width: 515px;
+    }
+    
+  }

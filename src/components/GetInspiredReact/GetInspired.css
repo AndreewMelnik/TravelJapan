@@ -51,12 +51,16 @@
       }
 
     .trip__card-more {
-      display: flex;
+      display: none;
       justify-content: center;
       max-width: 218px;
       margin: 0 auto;
-      padding-right: 0px;
+      padding-right: none;
       margin-bottom: 20%;
       font-size: 13px;
       }
+      .trip__title {
+        font-size: 26px;
+      }
+
 }

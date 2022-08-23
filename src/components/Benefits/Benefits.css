@@ -21,3 +21,9 @@
      padding: 93px 100px 88px 17%;
     }
 }
+
+@media (max-width:800px){
+    .benefits__title{
+     padding: 16% 10% 16% 10%;;
+    }
+}

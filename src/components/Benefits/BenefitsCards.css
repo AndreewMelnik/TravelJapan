@@ -61,6 +61,7 @@
       flex-wrap: wrap;
       position: relative;
       max-width: none;
+      margin-bottom: 6%;
     }
     .benefits__card-pic img {
       margin: 0 auto;
@@ -68,18 +69,27 @@
     .benefits__card-title {
       font-size: 16px;
       line-height: 20px;
-      margin-bottom: 18px;
+      margin-bottom: 5%;
       color: #000;
       text-align: center;
     }
     
     .benefits__card-desc {
-      font-size: 14px;
+      font-size: 13px;
       line-height: 20px;
       color: #000;
-      margin-bottom: 25px;
+      margin-bottom: 6%;
       text-align: center;
     }
-
+    
+    .benefits__card-more {
+      display: flex;
+      justify-content: center;
+      max-width: 218px;
+      margin: 0 auto;
+      padding-right: 0px;
+      margin-bottom: 20%;
+      font-size: 13px;
+    }
   }
   

@@ -45,3 +45,18 @@
     left: 29px;
   }
   
+  @media (max-width:800px){
+    .trip {
+      padding-top: 25%;
+      }
+
+    .trip__card-more {
+      display: flex;
+      justify-content: center;
+      max-width: 218px;
+      margin: 0 auto;
+      padding-right: 0px;
+      margin-bottom: 20%;
+      font-size: 13px;
+      }
+}

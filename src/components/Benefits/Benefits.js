@@ -6,7 +6,7 @@ function Benefits() {
     <div className="benefits">
       <div className="wrapper">
         <h1 className="benefits__title">Benefits of Odigo</h1>
-        <BenefitsCards />.
+        <BenefitsCards />
       </div>
     </div>
 

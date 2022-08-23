@@ -4,12 +4,11 @@ import {
   Header,
   Wrapper,
   Menu,
-  Auth,
   Nav,
   Drawer,
-} from "./Dropdown.style";
+} from "./Burger.style";
 
-function Dropdown() {
+function Burger() {
   const [drawer, setDrawer] = useState(false);
   const [scrollY, setScrollY] = useState(0);
 
@@ -85,4 +84,4 @@ function Dropdown() {
   );
 }
 
-export default Dropdown;
+export default Burger;

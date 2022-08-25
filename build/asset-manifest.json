@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TravelJapan/static/css/main.513e50c4.css",
-    "main.js": "/TravelJapan/static/js/main.3498e125.js",
+    "main.css": "/TravelJapan/static/css/main.b42272dd.css",
+    "main.js": "/TravelJapan/static/js/main.84b26da2.js",
     "static/media/header.jpg": "/TravelJapan/static/media/header.66709caef1b7af1fce46.jpg",
     "static/media/kyoto.jpg": "/TravelJapan/static/media/kyoto.aeb6b089323c61f1f800.jpg",
     "static/media/tokyo.jpg": "/TravelJapan/static/media/tokyo.4f525caf1690822d1a6d.jpg",
@@ -30,11 +30,11 @@
     "static/media/heart.svg": "/TravelJapan/static/media/heart.f05ee709614748583a96.svg",
     "static/media/circle-icon.svg": "/TravelJapan/static/media/circle-icon.4c2387538d35d697cddb.svg",
     "static/media/arrow-right.svg": "/TravelJapan/static/media/arrow-right.baf61354d85cf8bde0df.svg",
-    "main.513e50c4.css.map": "/TravelJapan/static/css/main.513e50c4.css.map",
-    "main.3498e125.js.map": "/TravelJapan/static/js/main.3498e125.js.map"
+    "main.b42272dd.css.map": "/TravelJapan/static/css/main.b42272dd.css.map",
+    "main.84b26da2.js.map": "/TravelJapan/static/js/main.84b26da2.js.map"
   },
   "entrypoints": [
-    "static/css/main.513e50c4.css",
-    "static/js/main.3498e125.js"
+    "static/css/main.b42272dd.css",
+    "static/js/main.84b26da2.js"
   ]
 }

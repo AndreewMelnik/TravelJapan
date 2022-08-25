@@ -97,7 +97,7 @@ export const Drawer = styled.div`
     margin-right: 3%;
   }
   .menu {
-    color: #000;
+    color: #fff;
     height: 2rem;
     position: relative;
     z-index: 99;

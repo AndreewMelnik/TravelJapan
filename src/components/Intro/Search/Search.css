@@ -23,14 +23,14 @@
 }
 
 .search-form {
-max-width: 915px;
+  max-width: 915px;
 }
-  
+
 .search-form__info {
   display: flex;
   flex-wrap: wrap;
 }
-  
+
 .search-form__field {
   width: 34.5%;
   background-color: transparent;
@@ -44,7 +44,7 @@ max-width: 915px;
   font-size: 18px;
   color: #fff;
 }
-  
+
 .search-form__submit {
   padding: 15px 39px;
   background: #1B7DFF;
@@ -55,13 +55,15 @@ max-width: 915px;
   font-size: 24px;
   border: 0;
 }
-  
-.search-form__submit:hover, .search-form__submit:focus, .search-form__submit:active {
+
+.search-form__submit:hover,
+.search-form__submit:focus,
+.search-form__submit:active {
   background: #0d51ad;
 }
 
 @media (max-width:1280px) {
-  .search-form__submit{
+  .search-form__submit {
     padding: 10px 23px;
   }
 }
@@ -71,20 +73,22 @@ max-width: 915px;
     padding-top: 25%;
     padding-bottom: 150px;
   }
+
   .intro__title {
     max-width: 75%;
     font-size: 36px;
     line-height: 43px;
     color: #fff;
   }
-  
+
   .intro__subtitle {
     font-size: 14px;
     line-height: 21px;
     max-width: 75%;
     margin-bottom: 45px;
   }
-  .search-form__field{
+
+  .search-form__field {
     width: 50%;
     background-size: 13px;
     margin-right: 8%;
@@ -95,7 +99,8 @@ max-width: 915px;
     margin-bottom: 3%;
     min-width: 330px;
   }
-  .search-form__submit{
+
+  .search-form__submit {
     bottom: 15%;
     position: absolute;
     padding: 10px 16px;

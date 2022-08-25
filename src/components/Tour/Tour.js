@@ -1,4 +1,6 @@
 import './Tour.css';
+import Tottori from "../../assets/img/tottori.jpg";
+import Arashiyama from "../../assets/img/arashiyama.jpg";
 
 function Tour() {
     return (
@@ -6,7 +8,7 @@ function Tour() {
             <div className="wrapper__main">
                 <div className="tour__cards">
                     <div className="tour__card-pic">
-                        <img className="trip__card-thumb" src="./img/tottori.jpg" alt="Tottori" />
+                        <img className="trip__card-thumb" src={Tottori}  alt="Tottori" />
                     </div>
                     <div className="tour__caption">
                         <h1 className="tour__title">
@@ -29,7 +31,7 @@ function Tour() {
                         <a className="tour__card-more" href="#!">VIEW NEIGHBORHOOD</a>
                     </div>
                     <div className="tour__card-pic">
-                        <img className="trip__card-thumb" src="./img/arashiyama.jpg" alt="Tottori" />
+                        <img className="trip__card-thumb" src={Arashiyama}  alt="Arashiyama" />
                     </div>
                 </div>
             </div>
@@ -37,5 +39,6 @@ function Tour() {
 
     );
 }
-
+// src="./img/arashiyama.jpg"
 export default Tour;
+// src="./img/tottori.jpg"

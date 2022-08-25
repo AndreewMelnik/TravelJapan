@@ -11,3 +11,14 @@
     padding: 93px 100px 88px 100px;
     background-color: #fff;
   }
+
+@media (max-width:800px) {
+    .places{
+        padding-top: 0px;
+    }
+    .places__title{
+        font-size: 23px;
+        padding: 5% 5% 15% 5%;
+      }
+    
+}

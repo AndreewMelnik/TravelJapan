@@ -97,3 +97,44 @@
     padding: 10px 15px;
   }
 }
+
+@media (max-width:750px) {
+  .places__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width:600px) {
+  .places__card {
+    margin: 0 auto;
+  }
+  .places__cards {
+    grid-template-columns: 1fr;
+  }
+  .places__card-caption{
+    top: 308px;
+    font-size: 12px;
+    padding: 16px 25px;
+    max-width: 386px;
+    }
+  .places__card-title {
+    font-size: 12px;
+  }
+  .places__card-desc{
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 17px;
+    max-width: 386px;
+  }
+  .places__card-button {
+    padding: 8px 10px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
+@media (max-width:425px) {
+.places__card {
+  margin: 0
+}
+}

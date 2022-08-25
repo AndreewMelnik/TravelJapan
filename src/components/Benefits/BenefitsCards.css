@@ -61,10 +61,11 @@
       flex-wrap: wrap;
       position: relative;
       max-width: none;
-      margin-bottom: 6%;
+      margin-bottom: 3%;
     }
     .benefits__card-pic img {
       margin: 0 auto;
+      max-width: 20%;
     }
     .benefits__card-title {
       font-size: 16px;
@@ -90,6 +91,7 @@
       padding-right: 0px;
       margin-bottom: 20%;
       font-size: 13px;
+      line-height: 20px;
     }
   }
   

@@ -69,7 +69,13 @@
       display: grid;
       grid-template-columns: 1fr;
       gap: 10px;
-      max-width: 515px;
+      max-width: 95%;
+      margin: 0 auto;
     }
-    
+    .trip__card:nth-child(1){
+      grid-column: span 2;
+    }
+    .trip__card:nth-child(2){
+      grid-column: span 2;
+    }
   }

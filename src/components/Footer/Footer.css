@@ -38,9 +38,12 @@ line-height: 26px;
     .footer__title:nth-child(5n+1){
         font-size: 9px;
     }
-.footer__logo {
+.footer__logo-img {
    max-width: 100px;
  }    
+ .footer__cards{
+    min-width: 180px;
+ }
     
 }
 

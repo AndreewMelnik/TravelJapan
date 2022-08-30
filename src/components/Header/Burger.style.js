@@ -94,7 +94,7 @@ export const Drawer = styled.div`
   display: none;
   @media screen and (max-width: 800px) {
     display: block;
-    margin-right: 3%;
+    margin-right: 21px;
   }
   .menu {
     color: #fff;

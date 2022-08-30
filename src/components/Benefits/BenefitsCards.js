@@ -28,13 +28,13 @@ class Card extends Component {
   render() {
     const { name, descr, src } = this.props;
     return (
-      <div class="benefits__card">
-        <div class="benefits__card-pic">
+      <div className="benefits__card">
+        <div className="benefits__card-pic">
           <img src={src} alt={name} />
         </div>
-        <h3 class="benefits__card-title">{name}</h3>
-        <p class="benefits__card-desc">{descr}</p>
-        <a class="benefits__card-more" href="#!">LEARN MORE</a>
+        <h3 className="benefits__card-title">{name}</h3>
+        <p className="benefits__card-desc">{descr}</p>
+        <a className="benefits__card-more" href="#!">LEARN MORE</a>
       </div>
 
     )

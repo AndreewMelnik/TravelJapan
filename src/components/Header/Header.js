@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Header.css';
+import Burger from './Burger'
 
 
 
@@ -40,7 +41,7 @@ function Header() {
                             <img className="header__logo-img" src="./img/svg/odigo-Logo.svg" alt="Discover Amazing places in Japan" />
                         </a>
                     </div>
-
+                    <Burger/>
                     <nav className="navbar">
                         <ul className="nav__list">
                             <li className="nav__item">

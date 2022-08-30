@@ -1,5 +1,5 @@
 import './Intro.css';
-import Search from '../Search/Search'
+import Search from './Search/Search'
 
 function Intro() {
   return (

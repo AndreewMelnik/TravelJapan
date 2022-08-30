@@ -36,7 +36,7 @@ class Card extends Component {
             <div className="trip__card">
                 <figure>
                     <img className="trip__card-pic" src={src} alt={name} />
-                    <figcaption class="trip__card-title">{name}</figcaption>
+                    <figcaption className="trip__card-title">{name}</figcaption>
                 </figure>
             </div>
 

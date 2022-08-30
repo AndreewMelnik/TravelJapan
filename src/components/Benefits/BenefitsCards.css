@@ -31,7 +31,7 @@
   }
   
   .benefits__card-more {
-    display: inline-block;
+    display: inline-flex;
     padding-right: 59px;
     font-size: 16px;
     line-height: 24px;
@@ -44,3 +44,54 @@
   .benefits__card-more:hover, .benefits__card-morefocus {
     background: url(/public/img/svg/arrow-right.svg) no-repeat right center;
   }
+
+  @media (max-width:800px){
+    .benefits__cards{
+      grid-template-columns: none;
+      column-gap: none;
+
+    }
+    .benefits__card{
+      max-width: 75%;
+      margin: 0 auto;
+      align-items: center;
+    }
+    .benefits__card-pic {
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+      max-width: none;
+      margin-bottom: 3%;
+    }
+    .benefits__card-pic img {
+      margin: 0 auto;
+      max-width: 20%;
+    }
+    .benefits__card-title {
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 5%;
+      color: #000;
+      text-align: center;
+    }
+    
+    .benefits__card-desc {
+      font-size: 13px;
+      line-height: 20px;
+      color: #000;
+      margin-bottom: 6%;
+      text-align: center;
+    }
+    
+    .benefits__card-more {
+      display: flex;
+      justify-content: center;
+      max-width: 218px;
+      margin: 0 auto;
+      padding-right: 0px;
+      margin-bottom: 20%;
+      font-size: 13px;
+      line-height: 20px;
+    }
+  }
+  

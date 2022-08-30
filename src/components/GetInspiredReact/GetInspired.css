@@ -1,8 +1,8 @@
 .trip {
   padding-top: 131px;
-  /* padding-bottom: 131px; */
+  /* padding-bottom: 131px;
   max-width: 1262px;
-  margin: 0 auto;
+  margin: 0 auto; */
   }
   
   .trip__caption {
@@ -45,3 +45,22 @@
     left: 29px;
   }
   
+  @media (max-width:800px){
+    .trip {
+      padding-top: 25%;
+      }
+
+    .trip__card-more {
+      display: none;
+      justify-content: center;
+      max-width: 218px;
+      margin: 0 auto;
+      padding-right: none;
+      margin-bottom: 20%;
+      font-size: 13px;
+      }
+      .trip__title {
+        font-size: 23px;
+      }
+
+}

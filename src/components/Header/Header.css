@@ -36,14 +36,31 @@
 }
 
 .nav__link {
-    font-size: 18px;
-    line-height: 24px;
-    color: #fff;
-    text-decoration: none;
-    transition: 1s;
-  }
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  text-decoration: none;
+  transition: 1s;
+}
 
-  .nav__link:hover, .nav__link:focus, .nav__link:active {
-    opacity: 0.75;
-    transition: 1s;
+.nav__link:hover, .nav__link:focus, .nav__link:active {
+  opacity: 0.75;
+  transition: 1s;
+}
+
+/* .dropdown {
+  position: absolute;
+  z-index: -3;
+  display: none;
+  margin: 0 auto;
+} */
+
+@media (max-width:800px) {
+  .nav__list{
+    display: none;
   }
+  /* .dropdown {
+    display: flex;
+  } */
+}
+

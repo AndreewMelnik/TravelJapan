@@ -55,3 +55,53 @@
   .tour__card-more:hover, .tour__card-morefocus {
     background: url(/public/img/svg/arrow-right.svg) no-repeat right center;
   }
+
+  @media (max-width:800px){
+  .tour__caption{
+    padding-left: 0px
+  }
+  .tour__title{
+    font-size: 23px;
+    line-height: 30px;
+    margin-bottom: 20%;
+    text-align: center;
+
+  }
+  .tour__subtitle{
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 20%;
+    text-align: center;
+  }
+  
+  .tour__card-more {
+  display: flex;
+  justify-content: center;
+  max-width: 218px;
+  margin: 0 auto;
+  padding-right: 0px;
+  margin-bottom: 20%;
+  font-size: 12px;
+  line-height: 20px;
+  background:none
+  }
+
+  .tour__card-more:hover, .tour__card-morefocus {
+    background: none
+  }
+
+  .tour__card-pic{
+    max-height: 70%;
+}
+
+.tour__cards {
+  gap: 0 7%;
+  margin-bottom: 0px;
+}
+
+.tour{
+  padding-top:25%;
+
+}
+
+}
